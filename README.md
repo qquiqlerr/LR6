@@ -1,13 +1,21 @@
 # LR6
 Лабораторная работа №6
 
-![img.png](screenshots/img.png)просмотр истории операций командой `git log`
+просмотр истории операций командой `git log`
 
-![img_1.png](screenshots/img_1.png)работа с README.md в JetBrains IDE
+![img.png](screenshots/img.png)
 
-![img.png](screenshots/img3.png)окно работы с git в JetBrains IDE
+работа с README.md в JetBrains IDE
 
-![img.png](screenshots/img_5.png) reflog
+![img_1.png](screenshots/img_1.png)
+
+окно работы с git в JetBrains IDE
+
+![img.png](screenshots/img3.png)
+
+reflog
+
+![img.png](screenshots/img_5.png) 
 
 ![img_1.png](screenshots/img_4.png)
 
