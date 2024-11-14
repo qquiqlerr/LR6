@@ -44,3 +44,24 @@ git reset HEAD~
 
 
 8. Удалил отчет с мастера и залил в отдельную ветку
+
+
+9. Понял что намудрил и слил мастер в otchet чтобы перетянуть скрины
+
+## git log
+
+```text
+5b70937 2024-11-14 4319 Метлушко А. Ю Merge branch 'master' into otchet
+5bce2c5 2024-11-14 4319 Метлушко А. Ю commit README.md
+80e7ce6 2024-11-14 4319 Метлушко А. Ю init README.md
+cdfd2d1 2024-11-14 4319 Метлушко А. Ю screenshots
+5586e7e 2024-11-14 4319 Метлушко А. Ю move readme to new branch
+c2ff589 2024-11-14 4319 Метлушко А. Ю screenshots permanently move to ./screenshots
+aba8610 2024-11-14 4319 Метлушко А. Ю add screenshots
+0f87228 2024-11-14 4319 Метлушко А. Ю add README.md
+b443419 2024-11-14 4319 Метлушко А. Ю Merge branch 'branch1'
+3f78683 2024-11-14 Алексей Метлушко Create newfile
+921f53b 2020-11-21 Kurtyanik Обновление информации
+0f9f50d 2020-11-21 Kurtyanik Заполнил файл
+c08a654 2020-11-21 Kurtyanik Файл создан пустым
+```
