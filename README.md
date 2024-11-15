@@ -1,24 +1,6 @@
 # LR6
 Лабораторная работа №6
 
-просмотр истории операций командой `git log`
-
-![img.png](screenshots/img.png)
-
-работа с README.md в JetBrains IDE
-
-![img_1.png](screenshots/img_1.png)
-
-окно работы с git в JetBrains IDE
-
-![img.png](screenshots/img3.png)
-
-reflog
-
-![img.png](screenshots/img_5.png) 
-
-![img_1.png](screenshots/img_4.png)
-
 # Последовательность действий
 1. Клонировал GitHub репозиторий используя
 ```bash
@@ -32,6 +14,9 @@ git branch
 git log branch1
 git log master
 ```
+просмотр истории операций командой `git log`
+
+![img.png](screenshots/img.png)
 
 
 3. Смержил ветку branch1 в master используя средства IDE для разрешения конфликтов
@@ -41,8 +26,14 @@ git log master
 ```bash
 git branch -d branch1
 ```
+![img_1.png](screenshots/img_4.png)
 
 5. Сделал несколько коммитов, оставляя логичные и понятные комментарии
+
+окно работы с git в JetBrains IDE
+
+![img.png](screenshots/img3.png)
+
 6. Удалил последний коммит с помощью
 ```bash
 git reset HEAD~
@@ -56,9 +47,21 @@ git reset HEAD~
 
 9. Понял что намудрил и слил мастер в otchet чтобы перетянуть скрины
 
+
+работа с README.md в JetBrains IDE
+
+![img_1.png](screenshots/img_1.png)
+
+reflog
+
+![img.png](screenshots/img_5.png) 
+
+
+
 ## git log
 
 ```text
+git log --pretty=format:'%h %cd %an %s' --date=short
 5b70937 2024-11-14 4319 Метлушко А. Ю Merge branch 'master' into otchet
 5bce2c5 2024-11-14 4319 Метлушко А. Ю commit README.md
 80e7ce6 2024-11-14 4319 Метлушко А. Ю init README.md
